@@ -1,0 +1,21 @@
+---
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install update and repositories (Ubuntu)
+    tags: always
+    apt:
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 86400
+    when: ansible_distribution == "Ubuntu"
+
+  - name: fetch log file from ControlNode
+    fetch:
+      src: "/var/log/{{ item }}"
+      dest: "logs/"
+      flat: yes
+    with_items:
+      - syslog
+      - auth.log

@@ -1,0 +1,371 @@
+2024-03-04T01:42:19.064124+00:00 jozette-VirtualBox useradd[472]: new group: name=jozette, GID=1000
+2024-03-04T01:42:19.064125+00:00 jozette-VirtualBox useradd[472]: new user: name=jozette, UID=1000, GID=1000, home=/home/jozette, shell=/bin/bash, from=none
+2024-03-04T01:42:19.064127+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'adm'
+2024-03-04T01:42:19.064129+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'cdrom'
+2024-03-04T01:42:19.064131+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'sudo'
+2024-03-04T01:42:19.064132+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'dip'
+2024-03-04T01:42:19.064133+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'plugdev'
+2024-03-04T01:42:19.064135+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'users'
+2024-03-04T01:42:19.064136+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to group 'lpadmin'
+2024-03-04T01:42:19.064138+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'adm'
+2024-03-04T01:42:19.064139+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'cdrom'
+2024-03-04T01:42:19.064141+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'sudo'
+2024-03-04T01:42:19.064142+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'dip'
+2024-03-04T01:42:19.064144+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'plugdev'
+2024-03-04T01:42:19.064145+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'users'
+2024-03-04T01:42:19.064146+00:00 jozette-VirtualBox useradd[472]: add 'jozette' to shadow group 'lpadmin'
+2024-03-04T01:42:19.064619+00:00 jozette-VirtualBox systemd-logind[607]: New seat seat0.
+2024-03-04T01:42:19.064624+00:00 jozette-VirtualBox systemd-logind[607]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T01:42:19.064629+00:00 jozette-VirtualBox systemd-logind[607]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T01:42:19.064630+00:00 jozette-VirtualBox systemd-logind[607]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T01:42:37.058889+00:00 jozette-VirtualBox gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T01:42:37.059047+00:00 jozette-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T01:42:37.095593+00:00 jozette-VirtualBox systemd-logind[607]: New session c1 of user gdm.
+2024-03-04T01:42:37.104754+00:00 jozette-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T01:42:38.220177+00:00 jozette-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T01:43:21.751433+00:00 jozette-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T01:43:21.751613+00:00 jozette-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T01:43:21.753850+00:00 jozette-VirtualBox gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T01:43:21.754045+00:00 jozette-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T01:43:21.790484+00:00 jozette-VirtualBox systemd-logind[607]: New session 2 of user jozette.
+2024-03-04T01:43:21.806933+00:00 jozette-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T01:43:21.912771+00:00 jozette-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T01:43:22.419706+00:00 jozette-VirtualBox gnome-keyring-daemon[1676]: The PKCS#11 component was already initialized
+2024-03-04T01:43:22.419949+00:00 jozette-VirtualBox gnome-keyring-daemon[1951]: discover_other_daemon: 1
+2024-03-04T01:43:22.420061+00:00 jozette-VirtualBox gnome-keyring-daemon[1676]: The Secret Service was already initialized
+2024-03-04T01:43:22.420425+00:00 jozette-VirtualBox gnome-keyring-daemon[1953]: discover_other_daemon: 1
+2024-03-04T01:43:22.420835+00:00 jozette-VirtualBox gnome-keyring-daemon[1955]: discover_other_daemon: 1
+2024-03-04T01:43:22.895851+00:00 jozette-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.73 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T01:43:23.982177+00:00 jozette-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T01:43:23.996127+00:00 jozette-VirtualBox systemd-logind[607]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T01:43:24.058632+00:00 jozette-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T01:43:24.063333+00:00 jozette-VirtualBox systemd-logind[607]: Removed session c1.
+2024-03-04T09:44:51.026064+08:00 jozette-VirtualBox systemd-logind[597]: New seat seat0.
+2024-03-04T09:44:51.026065+08:00 jozette-VirtualBox systemd-logind[597]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T09:44:51.026067+08:00 jozette-VirtualBox systemd-logind[597]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T09:44:51.026078+08:00 jozette-VirtualBox systemd-logind[597]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T09:44:51.293511+08:00 jozette-VirtualBox gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T09:44:51.293619+08:00 jozette-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:44:51.323729+08:00 jozette-VirtualBox systemd-logind[597]: New session c1 of user gdm.
+2024-03-04T09:44:51.346972+08:00 jozette-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:44:52.791701+08:00 jozette-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:45:18.391349+08:00 jozette-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T09:45:18.391392+08:00 jozette-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T09:45:18.393433+08:00 jozette-VirtualBox gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T09:45:18.394531+08:00 jozette-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T09:45:18.420150+08:00 jozette-VirtualBox systemd-logind[597]: New session 2 of user jozette.
+2024-03-04T09:45:18.435476+08:00 jozette-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T09:45:18.578741+08:00 jozette-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T09:45:19.071734+08:00 jozette-VirtualBox gnome-keyring-daemon[1250]: The PKCS#11 component was already initialized
+2024-03-04T09:45:19.071860+08:00 jozette-VirtualBox gnome-keyring-daemon[1250]: The Secret Service was already initialized
+2024-03-04T09:45:19.072094+08:00 jozette-VirtualBox gnome-keyring-daemon[1443]: discover_other_daemon: 1
+2024-03-04T09:45:19.072355+08:00 jozette-VirtualBox gnome-keyring-daemon[1440]: discover_other_daemon: 1
+2024-03-04T09:45:19.072722+08:00 jozette-VirtualBox gnome-keyring-daemon[1441]: discover_other_daemon: 1
+2024-03-04T09:45:19.836394+08:00 jozette-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:45:21.197065+08:00 jozette-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T09:45:21.199587+08:00 jozette-VirtualBox systemd-logind[597]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T09:45:21.246185+08:00 jozette-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T09:45:21.258931+08:00 jozette-VirtualBox systemd-logind[597]: Removed session c1.
+2024-03-04T09:46:22.470636+08:00 jozette-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:46:22.471356+08:00 jozette-VirtualBox pkexec[2406]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:47:22.273847+08:00 jozette-VirtualBox dbus-daemon[1249]: [session uid=1000 pid=1249] Failed to activate service 'org.freedesktop.Tracker3.Miner.Files': timed out (service_start_timeout=120000ms)
+2024-03-04T09:47:36.802076+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+2024-03-04T09:47:36.802515+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:47:43.813740+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:46.439701+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T09:47:46.440159+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:47:56.843466+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:48:09.171767+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/apt-get update
+2024-03-04T09:48:09.172190+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:48:10.604421+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:48:10.607851+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+2024-03-04T09:48:10.608134+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:50:12.232357+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:50:27.288468+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2024-03-04T09:50:27.289185+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:50:30.817717+08:00 jozette-VirtualBox useradd[26358]: new user: name=sshd, UID=124, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2024-03-04T09:50:33.890757+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:50:54.156151+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/sbin/service ssh start
+2024-03-04T09:50:54.156815+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:50:54.631115+08:00 jozette-VirtualBox sshd[26676]: Server listening on :: port 22.
+2024-03-04T09:50:54.632444+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:51:06.930795+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2024-03-04T09:51:06.931446+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:04.860462+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2024-03-04T09:52:04.861179+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:05.016663+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:52:10.011773+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/sbin/ufw ebale
+2024-03-04T09:52:10.012154+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:10.044054+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:52:19.098319+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2024-03-04T09:52:19.098699+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:19.590697+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:52:21.464280+08:00 jozette-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:21.464995+08:00 jozette-VirtualBox pkexec[26879]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:52:24.097886+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/sbin/ufw status
+2024-03-04T09:52:24.098220+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:24.137112+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:52:34.680461+08:00 jozette-VirtualBox sudo:  jozette : TTY=pts/0 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+2024-03-04T09:52:34.680769+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:36.661225+08:00 jozette-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:53:57.860350+08:00 jozette-VirtualBox sshd[27004]: Invalid user Controlnode from 192.168.56.119 port 40776
+2024-03-04T09:54:03.672427+08:00 jozette-VirtualBox sshd[27004]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T09:54:03.673649+08:00 jozette-VirtualBox sshd[27004]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.119 
+2024-03-04T09:54:05.700851+08:00 jozette-VirtualBox sshd[27004]: Failed password for invalid user Controlnode from 192.168.56.119 port 40776 ssh2
+2024-03-04T09:55:21.446954+08:00 jozette-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:55:21.448252+08:00 jozette-VirtualBox pkexec[27021]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:55:28.629005+08:00 jozette-VirtualBox sshd[27004]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T09:55:30.661988+08:00 jozette-VirtualBox sshd[27004]: Failed password for invalid user Controlnode from 192.168.56.119 port 40776 ssh2
+2024-03-04T09:55:50.629525+08:00 jozette-VirtualBox sshd[27004]: fatal: Timeout before authentication for 192.168.56.119 port 40776
+2024-03-04T09:56:22.458793+08:00 jozette-VirtualBox sshd[27028]: Invalid user ControlNode from 192.168.56.119 port 41084
+2024-03-04T09:56:26.519976+08:00 jozette-VirtualBox sshd[27028]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T09:56:26.520131+08:00 jozette-VirtualBox sshd[27028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.119 
+2024-03-04T09:56:28.513109+08:00 jozette-VirtualBox sshd[27028]: Failed password for invalid user ControlNode from 192.168.56.119 port 41084 ssh2
+2024-03-04T09:56:34.626213+08:00 jozette-VirtualBox sshd[27028]: Connection closed by invalid user ControlNode 192.168.56.119 port 41084 [preauth]
+2024-03-04T09:56:40.060793+08:00 jozette-VirtualBox systemd-logind[597]: The system will reboot now!
+2024-03-04T09:56:40.069787+08:00 jozette-VirtualBox systemd-logind[597]: System is rebooting.
+2024-03-04T09:56:40.097153+08:00 jozette-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user jozette
+2024-03-04T09:56:49.264959+08:00 ControlNode systemd-logind[664]: New seat seat0.
+2024-03-04T09:56:49.264961+08:00 ControlNode systemd-logind[664]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T09:56:49.264962+08:00 ControlNode systemd-logind[664]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T09:56:49.264964+08:00 ControlNode systemd-logind[664]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T09:56:49.363472+08:00 ControlNode gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T09:56:49.363522+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:56:49.389162+08:00 ControlNode systemd-logind[664]: New session c1 of user gdm.
+2024-03-04T09:56:49.411788+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:56:50.584433+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:56:54.961010+08:00 ControlNode gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T09:56:54.961108+08:00 ControlNode gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T09:56:54.966180+08:00 ControlNode gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T09:56:54.966420+08:00 ControlNode gdm-password]: pam_unix(gdm-password:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T09:56:54.997386+08:00 ControlNode systemd-logind[664]: New session 2 of user jozette.
+2024-03-04T09:56:55.006120+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T09:56:55.107137+08:00 ControlNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T09:56:55.437490+08:00 ControlNode gnome-keyring-daemon[1292]: The PKCS#11 component was already initialized
+2024-03-04T09:56:55.437667+08:00 ControlNode gnome-keyring-daemon[1447]: discover_other_daemon: 1
+2024-03-04T09:56:55.457690+08:00 ControlNode gnome-keyring-daemon[1292]: The Secret Service was already initialized
+2024-03-04T09:56:55.457884+08:00 ControlNode gnome-keyring-daemon[1444]: discover_other_daemon: 1
+2024-03-04T09:56:55.457907+08:00 ControlNode gnome-keyring-daemon[1451]: discover_other_daemon: 1
+2024-03-04T09:56:56.062118+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:56:56.923721+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T09:56:56.925560+08:00 ControlNode systemd-logind[664]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T09:56:56.967793+08:00 ControlNode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T09:56:56.973609+08:00 ControlNode systemd-logind[664]: Removed session c1.
+2024-03-04T09:57:32.805712+08:00 ControlNode sshd[2108]: Server listening on :: port 22.
+2024-03-04T09:57:32.911932+08:00 ControlNode sshd[2109]: Invalid user ControlNode from 192.168.56.119 port 34450
+2024-03-04T09:57:35.271573+08:00 ControlNode sshd[2109]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T09:57:35.271642+08:00 ControlNode sshd[2109]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.119 
+2024-03-04T09:57:37.411686+08:00 ControlNode sshd[2109]: Failed password for invalid user ControlNode from 192.168.56.119 port 34450 ssh2
+2024-03-04T09:57:58.547923+08:00 ControlNode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:57:58.548667+08:00 ControlNode pkexec[2149]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:58:10.069772+08:00 ControlNode sshd[2109]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T09:58:12.013511+08:00 ControlNode sshd[2109]: Failed password for invalid user ControlNode from 192.168.56.119 port 34450 ssh2
+2024-03-04T09:58:57.811852+08:00 ControlNode dbus-daemon[1290]: [session uid=1000 pid=1290] Failed to activate service 'org.freedesktop.Tracker3.Miner.Files': timed out (service_start_timeout=120000ms)
+2024-03-04T09:59:33.080302+08:00 ControlNode sshd[2109]: fatal: Timeout before authentication for 192.168.56.119 port 34450
+2024-03-04T10:00:16.685808+08:00 ControlNode sshd[2171]: Accepted password for jozette from 192.168.56.119 port 50600 ssh2
+2024-03-04T10:00:16.686883+08:00 ControlNode sshd[2171]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:00:16.726835+08:00 ControlNode systemd-logind[664]: New session 4 of user jozette.
+2024-03-04T10:00:16.898669+08:00 ControlNode sshd[2171]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:02:27.478237+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/usr/bin/apt install git
+2024-03-04T10:02:27.479302+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:02:32.364714+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:03:57.550193+08:00 ControlNode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:03:57.550589+08:00 ControlNode pkexec[2598]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T10:06:23.489341+08:00 ControlNode sshd[2254]: Received disconnect from 192.168.56.119 port 50600:11: disconnected by user
+2024-03-04T10:06:23.489428+08:00 ControlNode sshd[2254]: Disconnected from user jozette 192.168.56.119 port 50600
+2024-03-04T10:06:23.489497+08:00 ControlNode sshd[2171]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:06:23.493625+08:00 ControlNode systemd-logind[664]: Session 4 logged out. Waiting for processes to exit.
+2024-03-04T10:06:23.495549+08:00 ControlNode systemd-logind[664]: Removed session 4.
+2024-03-04T10:11:46.579599+08:00 ControlNode sshd[2639]: Accepted password for jozette from 192.168.56.119 port 54504 ssh2
+2024-03-04T10:11:46.580668+08:00 ControlNode sshd[2639]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:11:46.602816+08:00 ControlNode systemd-logind[664]: New session 5 of user jozette.
+2024-03-04T10:11:46.626586+08:00 ControlNode sshd[2639]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:11:48.213393+08:00 ControlNode sshd[2677]: Received disconnect from 192.168.56.119 port 54504:11: disconnected by user
+2024-03-04T10:11:48.213494+08:00 ControlNode sshd[2677]: Disconnected from user jozette 192.168.56.119 port 54504
+2024-03-04T10:11:48.213719+08:00 ControlNode sshd[2639]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:11:48.216326+08:00 ControlNode systemd-logind[664]: Session 5 logged out. Waiting for processes to exit.
+2024-03-04T10:11:48.217099+08:00 ControlNode systemd-logind[664]: Removed session 5.
+2024-03-04T10:12:00.505586+08:00 ControlNode sshd[2700]: Connection closed by authenticating user jozette 192.168.56.119 port 32960 [preauth]
+2024-03-04T10:12:00.634597+08:00 ControlNode sshd[2702]: Connection closed by authenticating user jozette 192.168.56.119 port 32962 [preauth]
+2024-03-04T10:12:04.421797+08:00 ControlNode sshd[2704]: Accepted password for jozette from 192.168.56.119 port 32968 ssh2
+2024-03-04T10:12:04.423100+08:00 ControlNode sshd[2704]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:12:04.450874+08:00 ControlNode systemd-logind[664]: New session 6 of user jozette.
+2024-03-04T10:12:04.471415+08:00 ControlNode sshd[2704]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:12:04.677579+08:00 ControlNode sshd[2740]: Received disconnect from 192.168.56.119 port 32968:11: disconnected by user
+2024-03-04T10:12:04.679056+08:00 ControlNode sshd[2740]: Disconnected from user jozette 192.168.56.119 port 32968
+2024-03-04T10:12:04.679092+08:00 ControlNode sshd[2704]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:12:04.679999+08:00 ControlNode systemd-logind[664]: Session 6 logged out. Waiting for processes to exit.
+2024-03-04T10:12:04.684985+08:00 ControlNode systemd-logind[664]: Removed session 6.
+2024-03-04T10:17:01.338389+08:00 ControlNode CRON[2774]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T10:17:01.341053+08:00 ControlNode CRON[2774]: pam_unix(cron:session): session closed for user root
+2024-03-04T10:26:25.564864+08:00 ControlNode sshd[2780]: Accepted publickey for jozette from 192.168.56.119 port 38024 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:26:25.565990+08:00 ControlNode sshd[2780]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:26:25.583467+08:00 ControlNode systemd-logind[664]: New session 8 of user jozette.
+2024-03-04T10:26:25.611695+08:00 ControlNode sshd[2780]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:27:09.342049+08:00 ControlNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T10:28:23.071868+08:00 ControlNode sshd[2816]: Received disconnect from 192.168.56.119 port 38024:11: disconnected by user
+2024-03-04T10:28:23.071995+08:00 ControlNode sshd[2816]: Disconnected from user jozette 192.168.56.119 port 38024
+2024-03-04T10:28:23.072230+08:00 ControlNode sshd[2780]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:28:23.074577+08:00 ControlNode systemd-logind[664]: Session 8 logged out. Waiting for processes to exit.
+2024-03-04T10:28:23.081564+08:00 ControlNode systemd-logind[664]: Removed session 8.
+2024-03-04T10:29:09.903795+08:00 ControlNode dbus-daemon[1290]: [session uid=1000 pid=1290] Failed to activate service 'org.freedesktop.Tracker3.Miner.Files': timed out (service_start_timeout=120000ms)
+2024-03-04T10:30:01.613995+08:00 ControlNode CRON[2952]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T10:30:01.615306+08:00 ControlNode CRON[2952]: pam_unix(cron:session): session closed for user root
+2024-03-04T10:31:46.707295+08:00 ControlNode sshd[2955]: Connection closed by 192.168.56.119 port 37024 [preauth]
+2024-03-04T10:31:53.482972+08:00 ControlNode sshd[2959]: Accepted publickey for jozette from 192.168.56.119 port 35992 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:31:53.484492+08:00 ControlNode sshd[2959]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:31:53.510797+08:00 ControlNode systemd-logind[664]: New session 10 of user jozette.
+2024-03-04T10:31:53.531161+08:00 ControlNode sshd[2959]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:32:00.317480+08:00 ControlNode sshd[2995]: Received disconnect from 192.168.56.119 port 35992:11: disconnected by user
+2024-03-04T10:32:00.318518+08:00 ControlNode sshd[2995]: Disconnected from user jozette 192.168.56.119 port 35992
+2024-03-04T10:32:00.318623+08:00 ControlNode sshd[2959]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:32:00.321009+08:00 ControlNode systemd-logind[664]: Session 10 logged out. Waiting for processes to exit.
+2024-03-04T10:32:00.323669+08:00 ControlNode systemd-logind[664]: Removed session 10.
+2024-03-04T10:32:13.174632+08:00 ControlNode sshd[3010]: Accepted publickey for jozette from 192.168.56.119 port 35054 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:32:13.175906+08:00 ControlNode sshd[3010]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:32:13.194855+08:00 ControlNode systemd-logind[664]: New session 11 of user jozette.
+2024-03-04T10:32:13.219247+08:00 ControlNode sshd[3010]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:32:13.406166+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lurkzdqrebvivdmgmnttneuvnvxkvrlf ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709519533.2684276-4546-188342796454211/AnsiballZ_apt.py'
+2024-03-04T10:32:13.406562+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:32:14.312818+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:33:07.090107+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ikykhizmhglsxjrvjiqevziovfllbjet ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709519586.963288-4572-179560236276766/AnsiballZ_apt.py'
+2024-03-04T10:33:07.090560+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:33:18.737524+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:33:57.524861+08:00 ControlNode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:33:57.525785+08:00 ControlNode pkexec[3690]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T10:34:18.756739+08:00 ControlNode sshd[3046]: Received disconnect from 192.168.56.119 port 35054:11: disconnected by user
+2024-03-04T10:34:18.756838+08:00 ControlNode sshd[3046]: Disconnected from user jozette 192.168.56.119 port 35054
+2024-03-04T10:34:18.757461+08:00 ControlNode sshd[3010]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:34:18.760231+08:00 ControlNode systemd-logind[664]: Session 11 logged out. Waiting for processes to exit.
+2024-03-04T10:34:18.763213+08:00 ControlNode systemd-logind[664]: Removed session 11.
+2024-03-04T10:39:07.600558+08:00 ControlNode sshd[3707]: Accepted publickey for jozette from 192.168.56.119 port 35380 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:39:07.602139+08:00 ControlNode sshd[3707]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:39:07.622755+08:00 ControlNode systemd-logind[664]: New session 12 of user jozette.
+2024-03-04T10:39:07.642459+08:00 ControlNode sshd[3707]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:39:46.555703+08:00 ControlNode sshd[3778]: Connection closed by authenticating user jozette 127.0.0.1 port 32774 [preauth]
+2024-03-04T10:39:46.680080+08:00 ControlNode sshd[3785]: Connection closed by authenticating user jozette 127.0.0.1 port 58478 [preauth]
+2024-03-04T10:39:49.506332+08:00 ControlNode sshd[3798]: Accepted password for jozette from 127.0.0.1 port 58488 ssh2
+2024-03-04T10:39:49.507709+08:00 ControlNode sshd[3798]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:39:49.518794+08:00 ControlNode systemd-logind[664]: New session 13 of user jozette.
+2024-03-04T10:39:49.546835+08:00 ControlNode sshd[3798]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:39:49.559723+08:00 ControlNode sshd[3834]: Received disconnect from 127.0.0.1 port 58488:11: disconnected by user
+2024-03-04T10:39:49.560885+08:00 ControlNode sshd[3834]: Disconnected from user jozette 127.0.0.1 port 58488
+2024-03-04T10:39:49.560912+08:00 ControlNode sshd[3798]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:39:49.565000+08:00 ControlNode systemd-logind[664]: Session 13 logged out. Waiting for processes to exit.
+2024-03-04T10:39:49.565378+08:00 ControlNode systemd-logind[664]: Removed session 13.
+2024-03-04T10:43:27.102647+08:00 ControlNode sshd[3743]: Received disconnect from 192.168.56.119 port 35380:11: disconnected by user
+2024-03-04T10:43:27.104277+08:00 ControlNode sshd[3743]: Disconnected from user jozette 192.168.56.119 port 35380
+2024-03-04T10:43:27.104468+08:00 ControlNode sshd[3707]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:43:27.105806+08:00 ControlNode systemd-logind[664]: Session 12 logged out. Waiting for processes to exit.
+2024-03-04T10:43:27.108255+08:00 ControlNode systemd-logind[664]: Removed session 12.
+2024-03-04T10:44:14.929229+08:00 ControlNode sshd[3859]: Connection closed by authenticating user jozette 192.168.56.119 port 37238 [preauth]
+2024-03-04T10:44:15.077841+08:00 ControlNode sshd[3861]: Accepted publickey for jozette from 192.168.56.119 port 37252 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:44:15.079218+08:00 ControlNode sshd[3861]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:44:15.099327+08:00 ControlNode systemd-logind[664]: New session 14 of user jozette.
+2024-03-04T10:44:15.124742+08:00 ControlNode sshd[3861]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:44:15.186147+08:00 ControlNode sshd[3897]: Received disconnect from 192.168.56.119 port 37252:11: disconnected by user
+2024-03-04T10:44:15.186243+08:00 ControlNode sshd[3897]: Disconnected from user jozette 192.168.56.119 port 37252
+2024-03-04T10:44:15.186458+08:00 ControlNode sshd[3861]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:44:15.188702+08:00 ControlNode systemd-logind[664]: Session 14 logged out. Waiting for processes to exit.
+2024-03-04T10:44:15.194251+08:00 ControlNode systemd-logind[664]: Removed session 14.
+2024-03-04T10:44:30.943299+08:00 ControlNode sshd[3899]: Connection closed by authenticating user jozette 192.168.56.119 port 48664 [preauth]
+2024-03-04T10:44:31.165309+08:00 ControlNode sshd[3901]: Accepted publickey for jozette from 192.168.56.119 port 48672 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:44:31.166563+08:00 ControlNode sshd[3901]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:44:31.186454+08:00 ControlNode systemd-logind[664]: New session 15 of user jozette.
+2024-03-04T10:44:31.209670+08:00 ControlNode sshd[3901]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:44:31.269756+08:00 ControlNode sshd[3937]: Received disconnect from 192.168.56.119 port 48672:11: disconnected by user
+2024-03-04T10:44:31.269943+08:00 ControlNode sshd[3937]: Disconnected from user jozette 192.168.56.119 port 48672
+2024-03-04T10:44:31.270201+08:00 ControlNode sshd[3901]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:44:31.272611+08:00 ControlNode systemd-logind[664]: Session 15 logged out. Waiting for processes to exit.
+2024-03-04T10:44:31.275992+08:00 ControlNode systemd-logind[664]: Removed session 15.
+2024-03-04T10:46:18.699198+08:00 ControlNode sshd[3939]: Accepted publickey for jozette from 192.168.56.119 port 37102 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:46:18.700495+08:00 ControlNode sshd[3939]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:46:18.735060+08:00 ControlNode systemd-logind[664]: New session 16 of user jozette.
+2024-03-04T10:46:18.753734+08:00 ControlNode sshd[3939]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:47:19.099832+08:00 ControlNode sshd[3975]: Received disconnect from 192.168.56.119 port 37102:11: disconnected by user
+2024-03-04T10:47:19.101750+08:00 ControlNode sshd[3975]: Disconnected from user jozette 192.168.56.119 port 37102
+2024-03-04T10:47:19.101863+08:00 ControlNode sshd[3939]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:47:19.103429+08:00 ControlNode systemd-logind[664]: Session 16 logged out. Waiting for processes to exit.
+2024-03-04T10:47:19.104178+08:00 ControlNode systemd-logind[664]: Removed session 16.
+2024-03-04T10:48:21.502763+08:00 ControlNode sshd[4000]: Accepted publickey for jozette from 192.168.56.119 port 47900 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:48:21.503973+08:00 ControlNode sshd[4000]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:48:21.526771+08:00 ControlNode systemd-logind[664]: New session 17 of user jozette.
+2024-03-04T10:48:21.547741+08:00 ControlNode sshd[4000]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:48:21.713699+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dyotvznesiledviagcggxwjurzfpwksk ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520501.6714983-5062-206248804457806/AnsiballZ_apt.py'
+2024-03-04T10:48:21.714203+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:48:22.580137+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:48:35.805496+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-fttyhhhckxmcyrrtaetzqfdofbuwgagj ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520515.7614775-5081-102132148614266/AnsiballZ_apt.py'
+2024-03-04T10:48:35.806011+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:48:36.184021+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:48:57.499200+08:00 ControlNode pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:48:57.499510+08:00 ControlNode pkexec[4361]: jozette: Executing command [USER=root] [TTY=unknown] [CWD=/home/jozette] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T10:49:36.301127+08:00 ControlNode sshd[4036]: Received disconnect from 192.168.56.119 port 47900:11: disconnected by user
+2024-03-04T10:49:36.301248+08:00 ControlNode sshd[4036]: Disconnected from user jozette 192.168.56.119 port 47900
+2024-03-04T10:49:36.301335+08:00 ControlNode sshd[4000]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:49:36.304433+08:00 ControlNode systemd-logind[664]: Session 17 logged out. Waiting for processes to exit.
+2024-03-04T10:49:36.306771+08:00 ControlNode systemd-logind[664]: Removed session 17.
+2024-03-04T10:54:46.944747+08:00 ControlNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T10:55:09.861842+08:00 ControlNode sshd[4515]: Accepted publickey for jozette from 192.168.56.119 port 57762 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T10:55:09.862981+08:00 ControlNode sshd[4515]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T10:55:09.894727+08:00 ControlNode systemd-logind[664]: New session 18 of user jozette.
+2024-03-04T10:55:09.920166+08:00 ControlNode sshd[4515]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:55:10.147620+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yekvrvmqfvjwwbsevsuhmekkswngluvp ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520915.2417629-5190-221693852072727/AnsiballZ_setup.py'
+2024-03-04T10:55:10.147767+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:10.892193+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:55:11.056368+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ikbajmdoxquyozazpzuqovinixrrwonn ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520916.2052088-5203-254586621761065/AnsiballZ_apt.py'
+2024-03-04T10:55:11.056715+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:19.860651+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:55:19.943518+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dsnzovdqnjxgokjkjqoryffbxiayabkw ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520925.1683264-5212-99285371369583/AnsiballZ_apt.py'
+2024-03-04T10:55:19.943941+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:34.486232+08:00 ControlNode groupadd[5377]: group added to /etc/group: name=prometheus, GID=130
+2024-03-04T10:55:34.488163+08:00 ControlNode groupadd[5377]: group added to /etc/gshadow: name=prometheus
+2024-03-04T10:55:34.488877+08:00 ControlNode groupadd[5377]: new group: name=prometheus, GID=130
+2024-03-04T10:55:34.497653+08:00 ControlNode useradd[5383]: new user: name=prometheus, UID=125, GID=130, home=/var/lib/prometheus, shell=/usr/sbin/nologin, from=/dev/pts/3
+2024-03-04T10:55:34.512528+08:00 ControlNode chfn[5390]: changed user 'prometheus' information
+2024-03-04T10:55:40.339129+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:55:40.478197+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hrypnrwpfytqjjpubaoncntrlbviptjt ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520945.6429098-5221-122655158203254/AnsiballZ_stat.py'
+2024-03-04T10:55:40.478545+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:40.557584+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:55:40.675612+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bskxczrzdrftxsvxhjhwdplnrvnrjxmu ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520945.6429098-5221-122655158203254/AnsiballZ_copy.py'
+2024-03-04T10:55:40.675940+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:40.758788+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:55:40.970347+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kfairbpryflidqmqphzlnlyufkbwjeku ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709520946.0671418-5237-64014001993798/AnsiballZ_systemd.py'
+2024-03-04T10:55:40.970811+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T10:55:41.174055+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:56:41.221327+08:00 ControlNode sshd[4551]: Received disconnect from 192.168.56.119 port 57762:11: disconnected by user
+2024-03-04T10:56:41.221440+08:00 ControlNode sshd[4551]: Disconnected from user jozette 192.168.56.119 port 57762
+2024-03-04T10:56:41.221512+08:00 ControlNode sshd[4515]: pam_unix(sshd:session): session closed for user jozette
+2024-03-04T10:56:41.225611+08:00 ControlNode systemd-logind[664]: Session 18 logged out. Waiting for processes to exit.
+2024-03-04T10:56:41.230378+08:00 ControlNode systemd-logind[664]: Removed session 18.
+2024-03-04T10:56:47.471673+08:00 ControlNode dbus-daemon[1290]: [session uid=1000 pid=1290] Failed to activate service 'org.freedesktop.Tracker3.Miner.Files': timed out (service_start_timeout=120000ms)
+2024-03-04T11:05:16.711477+08:00 ControlNode sshd[6538]: Accepted publickey for jozette from 192.168.56.119 port 57078 ssh2: RSA SHA256:USvjfa+vIf2rYYvW62gdMovLpZkYbHNWCl18aRigJ1Y
+2024-03-04T11:05:16.713062+08:00 ControlNode sshd[6538]: pam_unix(sshd:session): session opened for user jozette(uid=1000) by (uid=0)
+2024-03-04T11:05:16.747319+08:00 ControlNode systemd-logind[664]: New session 19 of user jozette.
+2024-03-04T11:05:16.784900+08:00 ControlNode sshd[6538]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:05:17.015102+08:00 ControlNode sudo: pam_unix(sudo:auth): authentication failure; logname=jozette uid=1000 euid=0 tty=/dev/pts/1 ruser=jozette rhost=  user=jozette
+2024-03-04T11:05:19.460947+08:00 ControlNode sudo: pam_unix(sudo:auth): conversation failed
+2024-03-04T11:05:19.461038+08:00 ControlNode sudo: pam_unix(sudo:auth): auth could not identify password for [jozette]
+2024-03-04T11:05:19.461060+08:00 ControlNode sudo:  jozette : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uglbnmynzgetmzbfzuydmmiqaxruyzqs ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521522.1298552-5329-95876695923211/AnsiballZ_setup.py'
+2024-03-04T11:05:26.701376+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lmwqjupvjeotbsqagqyesgrctdflqrtn ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521531.8124359-5347-22568682634379/AnsiballZ_setup.py'
+2024-03-04T11:05:26.701716+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:27.141176+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:27.307925+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jbwsgywqnttfgdlvynevvfcwbwcqypbg ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521532.45689-5356-277206680571817/AnsiballZ_apt.py'
+2024-03-04T11:05:27.308286+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:27.805215+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:27.946589+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yubdqdmuejiauaxhehhlnmvbqjsmgvwr ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521533.109941-5365-225497738357524/AnsiballZ_slurp.py'
+2024-03-04T11:05:27.946960+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:28.025845+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:28.090736+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-crppmizrpbuzsgeuoefovnjatpqdkwrn ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521533.3168414-5365-132745913662017/AnsiballZ_slurp.py'
+2024-03-04T11:05:28.090975+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:28.169324+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:52.497716+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-izvxfhxqesudiiwdaxjfcamkdsvgjexs ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521557.6071668-5392-195151684243161/AnsiballZ_setup.py'
+2024-03-04T11:05:52.497866+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:52.959008+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:53.130521+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-tnncsxiyefeytpbyvnqzfxdgxseikfmu ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521558.2749124-5401-25885972606617/AnsiballZ_apt.py'
+2024-03-04T11:05:53.130878+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:53.636133+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:53.781617+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pnwodsmtzhwwtcwjuyhafmpzgqmohikw ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521558.942488-5410-213978194710396/AnsiballZ_slurp.py'
+2024-03-04T11:05:53.781975+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
+2024-03-04T11:05:53.905325+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:05:53.980380+08:00 ControlNode sudo:  jozette : TTY=pts/1 ; PWD=/home/jozette ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bcyrqocddjtqnuufrzgcenhwctuubqat ; /usr/bin/python3 /home/jozette/.ansible/tmp/ansible-tmp-1709521559.2065132-5410-189517459288580/AnsiballZ_slurp.py'
+2024-03-04T11:05:53.980753+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jozette(uid=1000)
